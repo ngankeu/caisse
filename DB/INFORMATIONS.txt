@@ -1,0 +1,24 @@
+C:\Windows\System32\drivers\etc
+
+127.0.0.1	caisse.local
+
+C:\xampp\apache\conf\extra 
+
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/caisse/public"
+    ServerName caisse.local
+</VirtualHost>
+
+
+COMPTE: bobby@gmail.com mot de passe television
+olili@gmail.com mot de passe ngankeu2023
+john@gmail.com mot de passe ngankeu2023
+
+
+.env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=pos
+DB_USERNAME=root
+DB_PASSWORD=
